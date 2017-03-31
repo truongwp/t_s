@@ -1,0 +1,29 @@
+.no-border {
+  border: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+@each $pt in 40, 120  {
+  .pt-#{$pt} {
+    padding-top: #{$pt}px !important;
+  }
+}
+
+@each $pb in 40, 120  {
+  .pb-#{$pb} {
+    padding-bottom: #{$pb}px !important;
+  }
+}
+
+@each $mt in 150  {
+  .mt-#{$mt} {
+    margin-top: #{$mt}px !important;
+  }
+}
