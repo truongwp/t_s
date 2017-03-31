@@ -141,3 +141,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load sidebar layout feature.
+ */
+require get_template_directory() . '/inc/sidebar-layout/sidebar-layout.php';
